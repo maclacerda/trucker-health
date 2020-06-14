@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HealthCell" rowHeight="288" id="KGk-i7-Jjw" customClass="HealthTableViewCell" customModule="Trucker_Health" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="288"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="288"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ipp-DJ-iwG">
+                        <rect key="frame" x="0.0" y="16" width="320" height="272"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shadow" translatesAutoresizingMaskIntoConstraints="NO" id="N3x-eF-hUW">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="272"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hml-Ww-tAK">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="cSA-cd-Ncf"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXA-Lg-OuP">
+                                <rect key="frame" x="32" y="196" width="256" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hml-Ww-tAK" firstAttribute="leading" secondItem="Ipp-DJ-iwG" secondAttribute="leading" id="8Sp-Gn-NwP"/>
+                            <constraint firstItem="pXA-Lg-OuP" firstAttribute="leading" secondItem="Ipp-DJ-iwG" secondAttribute="leading" constant="32" id="BlY-lF-kt5"/>
+                            <constraint firstAttribute="bottom" secondItem="N3x-eF-hUW" secondAttribute="bottom" id="C3D-xg-e3k"/>
+                            <constraint firstItem="hml-Ww-tAK" firstAttribute="top" secondItem="Ipp-DJ-iwG" secondAttribute="top" id="Iye-vj-KRq"/>
+                            <constraint firstAttribute="trailing" secondItem="pXA-Lg-OuP" secondAttribute="trailing" constant="32" id="aLB-BM-TcH"/>
+                            <constraint firstItem="pXA-Lg-OuP" firstAttribute="top" secondItem="hml-Ww-tAK" secondAttribute="bottom" constant="16" id="cfF-jE-FQe"/>
+                            <constraint firstAttribute="trailing" secondItem="hml-Ww-tAK" secondAttribute="trailing" id="gex-4X-rhB"/>
+                            <constraint firstAttribute="trailing" secondItem="N3x-eF-hUW" secondAttribute="trailing" id="hz3-B8-5cc"/>
+                            <constraint firstItem="N3x-eF-hUW" firstAttribute="leading" secondItem="Ipp-DJ-iwG" secondAttribute="leading" id="sXq-1L-uuH"/>
+                            <constraint firstItem="N3x-eF-hUW" firstAttribute="top" secondItem="Ipp-DJ-iwG" secondAttribute="top" id="tzf-4m-ddz"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Ipp-DJ-iwG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="Bno-ca-XzU"/>
+                    <constraint firstAttribute="trailing" secondItem="Ipp-DJ-iwG" secondAttribute="trailing" id="a2Q-iA-kkx"/>
+                    <constraint firstAttribute="bottom" secondItem="Ipp-DJ-iwG" secondAttribute="bottom" id="kS2-be-x1m"/>
+                    <constraint firstItem="Ipp-DJ-iwG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="oze-dy-2it"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="containerView" destination="Ipp-DJ-iwG" id="Idc-aP-pXI"/>
+                <outlet property="photoView" destination="hml-Ww-tAK" id="04z-At-Lek"/>
+                <outlet property="titleView" destination="pXA-Lg-OuP" id="ulL-Hk-pY5"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="153"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="shadow" width="349" height="296"/>
+    </resources>
+</document>
