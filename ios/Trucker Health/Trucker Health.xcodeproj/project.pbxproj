@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0F36BFE02496985E0044964D /* HealthDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F36BFDF2496985E0044964D /* HealthDetailViewController.xib */; };
+		0F36BFE62496EFE20044964D /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36BFE52496EFE20044964D /* Dashboard.swift */; };
+		0F36BFE82496F1070044964D /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36BFE72496F1070044964D /* DashboardViewModel.swift */; };
+		0F36BFEB2496F8E80044964D /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36BFE92496F8E80044964D /* DashboardViewController.swift */; };
+		0F36BFEC2496F8E80044964D /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F36BFEA2496F8E80044964D /* DashboardViewController.xib */; };
+		0F36BFF02496F9680044964D /* DashboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36BFEE2496F9680044964D /* DashboardTableViewCell.swift */; };
+		0F36BFF12496F9680044964D /* DashboardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F36BFEF2496F9680044964D /* DashboardTableViewCell.xib */; };
+		0F36BFFA249703040044964D /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36BFF8249703040044964D /* SleepViewController.swift */; };
+		0F36BFFB249703040044964D /* SleepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F36BFF9249703040044964D /* SleepViewController.xib */; };
+		0F36BFFF249703790044964D /* SleepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F36BFFD249703790044964D /* SleepTableViewCell.swift */; };
+		0F36C000249703790044964D /* SleepTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F36BFFE249703790044964D /* SleepTableViewCell.xib */; };
 		0F5B458F2494FF2F004D0EF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B458E2494FF2F004D0EF2 /* AppDelegate.swift */; };
 		0F5B45982494FF33004D0EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F5B45972494FF33004D0EF2 /* Assets.xcassets */; };
 		0F5B459B2494FF33004D0EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F5B45992494FF33004D0EF2 /* LaunchScreen.storyboard */; };
@@ -43,10 +53,22 @@
 		0F5B460524968C82004D0EF2 /* HealthDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B460324968C82004D0EF2 /* HealthDetailViewController.swift */; };
 		0F5B460A24968EBC004D0EF2 /* HealthDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B460824968EBC004D0EF2 /* HealthDetailTableViewCell.swift */; };
 		0F5B460B24968EBC004D0EF2 /* HealthDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F5B460924968EBC004D0EF2 /* HealthDetailTableViewCell.xib */; };
+		3A96E357ADA9B5AEB09ED5D3 /* Pods_Trucker_Health.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B109BFDCD213B67341E9F45 /* Pods_Trucker_Health.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B109BFDCD213B67341E9F45 /* Pods_Trucker_Health.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trucker_Health.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F36BFDF2496985E0044964D /* HealthDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HealthDetailViewController.xib; sourceTree = "<group>"; };
+		0F36BFE52496EFE20044964D /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		0F36BFE72496F1070044964D /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		0F36BFE92496F8E80044964D /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		0F36BFEA2496F8E80044964D /* DashboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardViewController.xib; sourceTree = "<group>"; };
+		0F36BFEE2496F9680044964D /* DashboardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardTableViewCell.swift; sourceTree = "<group>"; };
+		0F36BFEF2496F9680044964D /* DashboardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashboardTableViewCell.xib; sourceTree = "<group>"; };
+		0F36BFF8249703040044964D /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
+		0F36BFF9249703040044964D /* SleepViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SleepViewController.xib; sourceTree = "<group>"; };
+		0F36BFFD249703790044964D /* SleepTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTableViewCell.swift; sourceTree = "<group>"; };
+		0F36BFFE249703790044964D /* SleepTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SleepTableViewCell.xib; sourceTree = "<group>"; };
 		0F5B458B2494FF2F004D0EF2 /* Trucker Health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trucker Health.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F5B458E2494FF2F004D0EF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F5B45972494FF33004D0EF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,6 +106,8 @@
 		0F5B460324968C82004D0EF2 /* HealthDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDetailViewController.swift; sourceTree = "<group>"; };
 		0F5B460824968EBC004D0EF2 /* HealthDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDetailTableViewCell.swift; sourceTree = "<group>"; };
 		0F5B460924968EBC004D0EF2 /* HealthDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HealthDetailTableViewCell.xib; sourceTree = "<group>"; };
+		50DEF1D0592BB6C4A7B77F0B /* Pods-Trucker Health.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trucker Health.release.xcconfig"; path = "Target Support Files/Pods-Trucker Health/Pods-Trucker Health.release.xcconfig"; sourceTree = "<group>"; };
+		5E19B2564A628D277FB5F228 /* Pods-Trucker Health.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trucker Health.debug.xcconfig"; path = "Target Support Files/Pods-Trucker Health/Pods-Trucker Health.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,17 +115,92 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A96E357ADA9B5AEB09ED5D3 /* Pods_Trucker_Health.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F36BFE12496EFCB0044964D /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				0F36BFED2496F9570044964D /* Cell */,
+				0F36BFE42496EFD70044964D /* ViewModel */,
+				0F36BFE32496EFD40044964D /* Model */,
+				0F36BFE22496EFD10044964D /* View */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		0F36BFE22496EFD10044964D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F36BFE92496F8E80044964D /* DashboardViewController.swift */,
+				0F36BFEA2496F8E80044964D /* DashboardViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F36BFE32496EFD40044964D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F36BFE52496EFE20044964D /* Dashboard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F36BFE42496EFD70044964D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0F36BFE72496F1070044964D /* DashboardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0F36BFED2496F9570044964D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0F36BFEE2496F9680044964D /* DashboardTableViewCell.swift */,
+				0F36BFEF2496F9680044964D /* DashboardTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0F36BFF2249702D10044964D /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+				0F36BFFC2497036B0044964D /* Cell */,
+				0F36BFF3249702D50044964D /* View */,
+			);
+			path = Sleep;
+			sourceTree = "<group>";
+		};
+		0F36BFF3249702D50044964D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F36BFF8249703040044964D /* SleepViewController.swift */,
+				0F36BFF9249703040044964D /* SleepViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F36BFFC2497036B0044964D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0F36BFFD249703790044964D /* SleepTableViewCell.swift */,
+				0F36BFFE249703790044964D /* SleepTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		0F5B45822494FF2F004D0EF2 = {
 			isa = PBXGroup;
 			children = (
 				0F5B458D2494FF2F004D0EF2 /* Trucker Health */,
 				0F5B458C2494FF2F004D0EF2 /* Products */,
+				F2F64FF38546BDDECAC11BFA /* Pods */,
+				F4A6C921A8312E866E31CC40 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +229,8 @@
 		0F5B45A22495A1B9004D0EF2 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				0F36BFF2249702D10044964D /* Sleep */,
+				0F36BFE12496EFCB0044964D /* Dashboard */,
 				0F5B45ED249680EE004D0EF2 /* Health */,
 				0F5B45E724967B21004D0EF2 /* SOS */,
 				0F5B45E12495C3DB004D0EF2 /* UnvaliableFeature */,
@@ -397,6 +498,24 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		F2F64FF38546BDDECAC11BFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E19B2564A628D277FB5F228 /* Pods-Trucker Health.debug.xcconfig */,
+				50DEF1D0592BB6C4A7B77F0B /* Pods-Trucker Health.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F4A6C921A8312E866E31CC40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B109BFDCD213B67341E9F45 /* Pods_Trucker_Health.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -404,9 +523,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F5B459F2494FF33004D0EF2 /* Build configuration list for PBXNativeTarget "Trucker Health" */;
 			buildPhases = (
+				54B365BBA726201854E9373F /* [CP] Check Pods Manifest.lock */,
 				0F5B45872494FF2F004D0EF2 /* Sources */,
 				0F5B45882494FF2F004D0EF2 /* Frameworks */,
 				0F5B45892494FF2F004D0EF2 /* Resources */,
+				D633FD9BF4DB165B65293E04 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -459,17 +580,63 @@
 				0F5B45E62495C3F3004D0EF2 /* UnvaliableFeatureViewController.xib in Resources */,
 				0F5B459B2494FF33004D0EF2 /* LaunchScreen.storyboard in Resources */,
 				0F5B45EC24967B39004D0EF2 /* SOSViewController.xib in Resources */,
+				0F36BFF12496F9680044964D /* DashboardTableViewCell.xib in Resources */,
+				0F36C000249703790044964D /* SleepTableViewCell.xib in Resources */,
 				0F5B45982494FF33004D0EF2 /* Assets.xcassets in Resources */,
 				0F5B460B24968EBC004D0EF2 /* HealthDetailTableViewCell.xib in Resources */,
 				0F36BFE02496985E0044964D /* HealthDetailViewController.xib in Resources */,
+				0F36BFFB249703040044964D /* SleepViewController.xib in Resources */,
 				0F5B45CA2495AFB3004D0EF2 /* ChangePasswordViewController.xib in Resources */,
 				0F5B45AB2495A1E4004D0EF2 /* LoginViewController.xib in Resources */,
 				0F5B45F82496836D004D0EF2 /* HealthViewController.xib in Resources */,
 				0F5B45E02495BE17004D0EF2 /* SettingsViewController.xib in Resources */,
+				0F36BFEC2496F8E80044964D /* DashboardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54B365BBA726201854E9373F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trucker Health-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D633FD9BF4DB165B65293E04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trucker Health/Pods-Trucker Health-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trucker Health/Pods-Trucker Health-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trucker Health/Pods-Trucker Health-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0F5B45872494FF2F004D0EF2 /* Sources */ = {
@@ -479,6 +646,7 @@
 				0F5B45C92495AFB3004D0EF2 /* ChangePasswordViewController.swift in Sources */,
 				0F5B460A24968EBC004D0EF2 /* HealthDetailTableViewCell.swift in Sources */,
 				0F5B45F424968170004D0EF2 /* HealthViewModel.swift in Sources */,
+				0F36BFE82496F1070044964D /* DashboardViewModel.swift in Sources */,
 				0F5B45C22495AF21004D0EF2 /* UIViewController+extensions.swift in Sources */,
 				0F5B45AA2495A1E4004D0EF2 /* LoginViewController.swift in Sources */,
 				0F5B45CE2495AFD0004D0EF2 /* ChangePasswordViewModel.swift in Sources */,
@@ -487,9 +655,13 @@
 				0F5B45CC2495AFC4004D0EF2 /* ChangePassword.swift in Sources */,
 				0F5B45BE2495A8CF004D0EF2 /* SceneDelegate.swift in Sources */,
 				0F5B45B42495A252004D0EF2 /* UserDefaults+extensions.swift in Sources */,
+				0F36BFFA249703040044964D /* SleepViewController.swift in Sources */,
 				0F5B45D22495B322004D0EF2 /* TabsViewController.swift in Sources */,
+				0F36BFF02496F9680044964D /* DashboardTableViewCell.swift in Sources */,
 				0F5B45D92495BCAB004D0EF2 /* Settings.swift in Sources */,
 				0F5B45BA2495A2C2004D0EF2 /* User.swift in Sources */,
+				0F36BFEB2496F8E80044964D /* DashboardViewController.swift in Sources */,
+				0F36BFE62496EFE20044964D /* Dashboard.swift in Sources */,
 				0F5B45EB24967B39004D0EF2 /* SOSViewController.swift in Sources */,
 				0F5B45B62495A28C004D0EF2 /* BaseNavigationViewController.swift in Sources */,
 				0F5B45F224968113004D0EF2 /* Health.swift in Sources */,
@@ -497,6 +669,7 @@
 				0F5B45FC2496844C004D0EF2 /* HealthTableViewCell.swift in Sources */,
 				0F5B45B82495A29D004D0EF2 /* BaseViewController.swift in Sources */,
 				0F5B45E52495C3F3004D0EF2 /* UnvaliableFeatureViewController.swift in Sources */,
+				0F36BFFF249703790044964D /* SleepTableViewCell.swift in Sources */,
 				0F5B45F72496836D004D0EF2 /* HealthViewController.swift in Sources */,
 				0F5B45B22495A222004D0EF2 /* String+extensions.swift in Sources */,
 				0F5B45BC2495A2F1004D0EF2 /* LoginViewModel.swift in Sources */,
@@ -634,6 +807,7 @@
 		};
 		0F5B45A02494FF33004D0EF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E19B2564A628D277FB5F228 /* Pods-Trucker Health.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -653,6 +827,7 @@
 		};
 		0F5B45A12494FF33004D0EF2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50DEF1D0592BB6C4A7B77F0B /* Pods-Trucker Health.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

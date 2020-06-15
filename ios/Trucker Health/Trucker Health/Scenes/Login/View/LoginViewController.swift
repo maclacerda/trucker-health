@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MBProgressHUD
 
 class LoginViewController: BaseViewController {
     
@@ -36,8 +37,14 @@ class LoginViewController: BaseViewController {
     // MARK: - Actions
     
     @IBAction private func goButtonAction() {
-        viewModel.saveCredentials()
-        nextScreen(with: ChangePasswordViewController())
+        MBProgressHUD.showAdded(to: self.navigationController!.view, animated: true)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) { [unowned self] in
+            MBProgressHUD.hide(for: self.navigationController!.view, animated: true)
+            
+            self.viewModel.saveCredentials()
+            self.nextScreen(with: ChangePasswordViewController())
+        }
     }
 
 }

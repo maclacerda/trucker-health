@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MBProgressHUD
 
 class ChangePasswordViewController: BaseViewController {
 
@@ -36,12 +37,18 @@ class ChangePasswordViewController: BaseViewController {
     // MARK: - Actions
     
     @IBAction private func goButtonAction() {
-        viewModel.updatePassword()
+        MBProgressHUD.showAdded(to: self.navigationController!.view, animated: true)
         
-        if #available(iOS 13.0, *) {
-            nextScreen(with: TabsViewController())
-        } else {
-            appdelegate.changeRootViewController(TabsViewController())
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) { [unowned self] in
+            MBProgressHUD.hide(for: self.navigationController!.view, animated: true)
+            
+            self.viewModel.updatePassword()
+            
+            if #available(iOS 13.0, *) {
+                self.nextScreen(with: TabsViewController())
+            } else {
+                self.appdelegate.changeRootViewController(TabsViewController())
+            }
         }
     }
 

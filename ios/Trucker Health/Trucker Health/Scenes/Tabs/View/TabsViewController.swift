@@ -32,7 +32,7 @@ class TabsViewController : UITabBarController {
     // MARK: - Private methods
     
     private func makeHomeController() -> BaseNavigationViewController {
-        let homeController = BaseViewController()
+        let homeController = DashboardViewController()
         let navigationController = BaseNavigationViewController(rootViewController: homeController)
         
         navigationController.title = ""
@@ -45,7 +45,7 @@ class TabsViewController : UITabBarController {
     }
     
     private func makeSleepController() -> BaseNavigationViewController {
-        let sleepViewController = BaseViewController()
+        let sleepViewController = SleepViewController()
         let navigationController = BaseNavigationViewController(rootViewController: sleepViewController)
         
         navigationController.title = ""
